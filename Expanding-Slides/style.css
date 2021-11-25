@@ -2,6 +2,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color:hsl(44, 48%, 51%);
+}
 .main {
     display: flex;
     align-items: center;
