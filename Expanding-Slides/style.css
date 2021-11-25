@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -11,6 +12,7 @@
 }
  h2{
     display: flex;
+    font-family: Quicksand;
     align-items: center;
     justify-content: center;
     height: 5vh;
@@ -29,13 +31,14 @@
     border-radius: 50px;
     color: white;
     cursor: pointer;
-    flex: 0.5;
-    margin: 10px; 
+    flex: 0.6;
+    margin: 2x; 
     position: relative;
-    transition: flex 0.7s ease-in;
+    transition: flex 0.5s ease-in;
 }
 .panel h3{
 font-size:24px;
+font-family: Quicksand;
 position: absolute;
 bottom: 20px;
 left: 20px;
@@ -47,6 +50,7 @@ opacity: 0;
 }
 .panel.active h3 {
     opacity: 1;
+    transition: opacity 0.3 ease-in 0.4;
 }
 @media(min-width:480px){
     .container{
